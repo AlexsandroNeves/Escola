@@ -5,6 +5,7 @@ function Header() {
     return (
         <>
             <header>
+                <div className='header'>
                 <div className='header__menu'>
                     <img src={logo} alt="Logotipo" />
                     <nav className='menu__principal'>
@@ -29,6 +30,7 @@ function Header() {
                     <div>
                         <img src={img2} alt=" Imagem Ilustrativa" />
                     </div>
+                </div>
                 </div>
             </header>
         </>
